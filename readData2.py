@@ -4,7 +4,7 @@ from torchvision import datasets, transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 from utils.cutout import Cutout
 
-def read_dataset(batch_size=16, valid_size=0.2, num_workers=0, pic_path='dataset'):
+def read_dataset(batch_size=16, valid_size=0.2, num_workers=0, pic_path='"D:\DDD\NYUUU\2024 Spring\deep learning\Mini Project\deep-learning-mini-project-spring-24-nyu\cifar-10-python\cifar-10-batches-py"'):
     """
     batch_size: Number of loaded images per batch
     valid_size: Percentage of training set to use as validation
